@@ -4,7 +4,7 @@
   --header-height: 3rem;
 
   /* colors */
-  --hue-color: 250;
+  --hue-color: 230;
 
   /* hsl color mode */
   --first-color: hsl(var(--hue-color), 69%, 61%);
@@ -284,7 +284,7 @@ img {
 }
 
 .home__scroll {
-  /* display: none; */
+  display: none;
 }
 
 .home__scroll-button {
@@ -313,6 +313,27 @@ img {
 
 /* BUTTONS */
 .button {
+  display: inline-block;
+  background-color: var(--first-color);
+  color: #fff;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  font-weight: var(--font-medium);
+}
+
+.button:hover {
+  background-color: var(--first-color-alt);
+}
+
+.button__icon {
+  font-size: 1.25rem;
+  margin-left: var(--mb-0-5);
+  transition: 0.3s;
+}
+
+.button--flex {
+  display: inline-flex;
+  align-items: center;
 }
 
 /* ABOUT */
