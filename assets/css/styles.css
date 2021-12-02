@@ -7,15 +7,15 @@
   --hue-color: 250;
 
   /* hsl color mode */
-  --first-color: (hsl(--hue-color), 69%, 61%);
-  --first-color-second: (hsl(--hue-color), 69%, 61%);
-  --first-color-alt: (hsl(--hue-color), 57%, 53%);
-  --first-color-lighter: (hsl(--hue-color), 92%, 85%);
-  --title-color: (hsl(--hue-color), 8%, 15%);
-  --text-color: (hsl(--hue-color), 8%, 45%);
-  --text-color-light: (hsl(--hue-color), 8%, 65%);
-  --input-color: (hsl(--hue-color), 70%, 96%);
-  --body-color: (hsl(--hue-color), 60%, 99%);
+  --first-color: hsl(var(--hue-color), 69%, 61%);
+  --first-color-second: hsl(var(--hue-color), 69%, 61%);
+  --first-color-alt: hsl(var(--hue-color), 57%, 53%);
+  --first-color-lighter: hsl(var(--hue-color), 92%, 85%);
+  --title-color: hsl(var(--hue-color), 8%, 15%);
+  --text-color: hsl(var(--hue-color), 8%, 45%);
+  --text-color-light: hsl(var(--hue-color), 8%, 65%);
+  --input-color: hsl(var(--hue-color), 70%, 96%);
+  --body-color: hsl(var(--hue-color), 60%, 99%);
   --container-color: #fff;
 
   /* font & typography */
@@ -254,6 +254,17 @@ img {
 .home__social-icon:hover {
   color: var(--first-color-alt);
 }
+
+.home__blob {
+  width: 200px;
+  fill: var(--first-color);
+}
+
+.home__blob-img {
+  width: 170px;
+}
+
+/* onde parei:: 32:58 */
 
 /* BTS */
 
