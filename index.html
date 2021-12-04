@@ -9,6 +9,7 @@
       rel="stylesheet"
       href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
     />
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
     <link rel="stylesheet" href="./assets/css/styles.css" />
     <title>Gerson Samuel Fuchs - Portfólio</title>
   </head>
@@ -659,10 +660,10 @@
         <h2 class="section__title">Portfolio</h2>
         <span class="section__subtitle">Most recent work</span>
 
-        <div class="portfolio__container container">
-          <div>
+        <div class="portfolio__container container swiper mySwiper">
+          <div class="swiper-wrapper">
             <!-- portfolio 1 -->
-            <div class="portfolio__content grid">
+            <div class="portfolio__content grid swiper-slide">
               <img
                 src="assets/img/portfolio1.jpg"
                 alt=""
@@ -685,7 +686,7 @@
             </div>
 
             <!-- portfolio 2 -->
-            <div class="portfolio__content grid">
+            <div class="portfolio__content grid swiper-slide">
               <img
                 src="assets/img/portfolio2.jpg"
                 alt=""
@@ -708,7 +709,7 @@
             </div>
 
             <!-- portfolio 3 -->
-            <div class="portfolio__content grid">
+            <div class="portfolio__content grid swiper-slide">
               <img
                 src="assets/img/portfolio3.jpg"
                 alt=""
@@ -730,6 +731,14 @@
               </div>
             </div>
           </div>
+
+          <div class="swiper-button-next">
+            <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+          </div>
+          <div class="swiper-button-prev">
+            <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+          </div>
+          <div class="swiper-pagination"></div>
         </div>
       </section>
 
@@ -745,6 +754,7 @@
     <!-- scroll top -->
 
     <!-- swiper js -->
+    <script src="assets/js/swiper-bundle.min.js"></script>
 
     <!-- main js -->
     <script src="./assets/js/main.js"></script>
