@@ -226,6 +226,9 @@ img {
 }
 
 /* active link */
+.active-link {
+  color: var(--first-color);
+}
 
 /* change background header */
 
