@@ -371,10 +371,11 @@ img {
 .button--white {
   background-color: #fff;
   color: var(--first-color);
+  margin-bottom: var(--mb-2);
 }
 
 .button--white:hover {
-  background-color: #fff;
+  background-color: rgb(214, 214, 214);
 }
 
 .button--flex {
@@ -756,11 +757,6 @@ img {
 .project__title,
 .project__description {
   color: #fff;
-}
-
-.project__img {
-  width: 232px;
-  justify-self: center;
 }
 
 /* TESTIMONIAL */
