@@ -1,3 +1,3 @@
 # Meu portfólio
 
-## Ferramentas usadas: HTML, CSS e JavaScript
+Ferramentas usadas: HTML, CSS e JavaScript
