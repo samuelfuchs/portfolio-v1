@@ -25,40 +25,54 @@
         font-size: 2rem;
       }
       p {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
       }
       a {
         text-decoration: none;
       }
 
       .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
         max-width: 768px;
-        margin-right: 2rem;
-        margin-left: 2rem;
+        margin-right: auto;
+        margin-left: auto;
+        background-color: red;
       }
 
       .main {
-        display: flex;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
 
         align-items: center;
-        justify-content: center;
         gap: 3rem;
+      }
+
+      .part1 {
+        text-align: right;
+      }
+
+      .part1 h1 {
+        font-size: 7rem;
       }
     </style>
   </head>
   <body>
-    <section class="container main">
-      <div>
-        <!-- picture -->
-        <h1>404</h1>
-      </div>
-      <div>
-        <h1>I looked everywhere.</h1>
-        <p>
-          Looks like this page is missing. If you still need help, send me an
-          email.
-        </p>
-        <a href="#">Go to homepage</a>
+    <section class="container">
+      <div class="main">
+        <div class="part1">
+          <!-- picture -->
+          <h1>404</h1>
+        </div>
+        <div class="part2">
+          <h1>I looked everywhere.</h1>
+          <p>
+            Looks like this page is missing. If you still need help, send me an
+            email.
+          </p>
+          <a href="#">Go to homepage</a>
+        </div>
       </div>
     </section>
   </body>
