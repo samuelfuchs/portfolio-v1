@@ -1,4 +1,4 @@
-# My portfólio
+# My portfolio
 
 Technologies used: HTML, CSS e JavaScript
 Mobile-first
