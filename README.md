@@ -1,4 +1,7 @@
-# Meu portfólio
+# My portfolio
 
-Ferramentas usadas: HTML, CSS e JavaScript
+Technologies used: HTML, CSS e JavaScript
 Mobile-first
+
+
+Custom 404 page
