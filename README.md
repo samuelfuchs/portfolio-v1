@@ -1,7 +1,7 @@
-# My portfolio
+# Personal Website
 
-Technologies used: HTML, CSS e JavaScript
-Mobile-first
+This is my personal portfolio website, built with pure HTML, CSS and JavaScript.
 
-
-Custom 404 page
+Mobile-first design.
+Fully responsive.
+Small size (loaded quickly).
