@@ -8,7 +8,7 @@ It was made to display my personal projects.
 
 - Mobile-first design;
 - Responsive (mobile friendly);
-- Small bunlde size;
+- Small bundle size;
 - 3rd Party Library: SwiperJS
 
 ## Mobile demo:
